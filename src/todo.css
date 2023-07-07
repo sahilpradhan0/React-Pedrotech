@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inputs{
+    background-color: rgb(209, 172, 124);;
+    /* margin: 10px 0; */
+    padding: 10px 0;
+}
+input{
+    margin-top: 5px;
+    padding: 4px;
+    outline: none;
+}
+button{
+    padding: 4px;
+    background-color: rgb(206, 152, 81);
+    border: 2px solid rgb(206, 152, 81);
+    border-radius: 8px;
+    color: rgb(237, 232, 232);
+    margin-left: 10px;
+    cursor: pointer;
+}
+.todolists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.todolists button{
+    margin-left: 30px;
+}
